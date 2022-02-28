@@ -1,0 +1,57 @@
+Comandos básicos 
+
+GUI x CLI 
+
+Cli comando line interface 
+
+Abrir o terminal do Windows – iniciar – cmd 
+
+Dir – diretórios (listar todas as pastas) 
+
+Cd + nome da pasta – entra na pasta especifica 
+
+Cd.. - Voltar um nivel 
+
+Cls – limpar a tela 
+
+Ctrl + l = limpa a tela no Git Bash 
+
+*tecla tab autocompleta as palavras* 
+
+Mkdir – make direct – criar pasta 
+
+Echo “nome do arquivo” > “nome do arquivo.formato” - cria arquivo 
+
+Del - deleta a pasta 
+
+rmdir – deleta o arquivo  
+
+
+Sha1 - é uma chave de identificação única do arquivo, contém 40 caracteres.  
+
+Qualquer modificação feita no arquivo gera uma nova chave única. 
+
+Sistema de criptografia 
+
+
+Objetos internos git 
+
+Blob - contém metadados do git ex: tamanho do arquivo; string, tipo do arquivo 
+
+Tree (arvore) – armazenam também metadados que apontam para os blobs e contém o nome do arquivo  
+
+Commits - é a garantia de segurança do seu arquivo; o commit aponta para a arvore, que aponta para o blob. Qualquer alteração no arquivo altera o sha1 do commit. 
+
+ 
+
+Git init – estamos criando um repositorio dentro do git  
+
+Tracked – untracked 
+
+ 
+
+Git add: adiciona o arquivo 
+
+Git commit –m “” : adiciona no repositório local 
+
+Git status: mostra o status de todos os arquivos da pasta 
